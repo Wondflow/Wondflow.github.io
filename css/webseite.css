@@ -1,0 +1,366 @@
+body{
+    width:80%;
+    height:auto;
+    margin: 0 auto;
+    padding: 0px;
+    border: 1px solid #ccc;
+}
+h2,p,h3,dl,dt,dd,ul,li,input,footer{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    color: #cccc;
+    text-decoration: none;
+}
+.clearfix{
+    content: "";
+    display: table;
+    overflow: hidden;
+    clear: both;
+}
+section
+{
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+}
+/*article部分的样式*/
+.top{
+    width:100%;
+    height: 500px;
+    background: url("../images/bg.png") no-repeat center center;
+    -webkit-opacity:0.5;/*设置透明度为0.5*/
+    color: #ffffff;/*设置颜色为白色*/
+    text-align: center;
+}
+.top h2
+{
+    height: 50px;
+    text-align: center;
+    padding-top: 100px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 50px;
+}
+ .top p{
+    width: 40%;
+    margin:30px auto;
+    height: auto;
+    text-align: center;
+    color: #ffffff;
+    font-size: 16px;
+    font-family:"微软雅黑";
+}
+.zc
+{
+    width: 40%;
+    height: 150px;
+    margin: 10px auto;
+    border: 1px solid #ffffff;
+}
+.zc h3
+{
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+.top .zc p
+{
+    width: 30%;
+    height: 20px;
+    margin-top: 4px;
+    text-align: center;
+    font-size: 14px;
+}
+.top input
+{
+    background: none;
+    margin: 0 5px;
+    outline: none;
+    border: 1px solid #ffffff;
+}
+/*设置第二部分的样式*/
+.second
+{
+    width:100%;
+    height: 400px;
+    margin: 50px auto;
+    text-align: center;
+}
+.second h2{
+    width:30%;
+    height: 40px;
+    margin: 10px auto;
+    text-align: center;
+}
+.dl-list{
+    width: 70%;
+    margin: 0 15%;
+}
+.second dl{
+    width: 40%;
+    height: 100px;
+    margin: 20px 30px 0 30px;
+    float: left;
+    text-align: justify;/*设置文字两端对齐*/
+}
+.second dl dt
+{
+    width: 40%;
+}
+.second dl dt img{
+    float: left;
+}
+.second dl .tit
+{
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.second dl dd:not(.tit)
+{
+    color: #cccccc;
+    font-family: "宋体";
+    font-size: 14px;
+}
+.img1
+{
+    width: 100%;
+    height: 500px;
+    margin: 50px auto;
+    background:  url("../images/pic.png") no-repeat center center;
+    border: none;
+    color: white;
+}
+.img1 h3
+{
+    width: 50%;
+    height: 50px;
+    padding-top: 100px;
+    text-align: center;
+    margin-left: 40px;
+    font-size: 50px;
+}
+.img1 p
+{
+    width: 50%;
+    padding-top: 100px;
+    text-align: center;
+    margin-left: 50px;
+}
+.img1 a:nth-of-type(1)
+{
+    margin-left: 150px;
+}
+.img1 a
+{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background: none;
+    border: 1px solid #cccccc;
+    text-align: center;
+    line-height: 50px;
+    margin: 30px 0px;
+    color: white;
+}
+/*第三部分的样式*/
+.third
+{
+    width: 100%;
+    height: 250px;
+    margin: 20px auto;
+}
+.third h3
+{
+    height: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family:"华文宋体";
+    color: #000011;
+    margin-bottom: 20px;
+}
+.third ul
+{
+    width: 25%;
+    float: left;
+    margin:20px 10px;
+}
+.third ul:nth-of-type(1)
+{
+    margin-left: 200px;
+}
+.third ul li:first-child
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    font-family: "Arial Black";
+}
+.third ul li:nth-of-type(2)
+{
+    color: #cccccc;
+    text-align: center;
+}
+/*第四部分的样式*/
+.fourth
+{
+    width: 100%;
+    margin: 10px auto;
+    clear: both;
+}
+.fourth dl
+{
+    height: 350px;
+    margin: 20px 0;
+}
+.fourth dl img
+{
+    width: 500px;
+    height: 300px;
+    margin: 0 30px;
+}
+.fourth dl:nth-of-type(1) img
+{
+    margin-left: 200px;
+    float:left;
+}
+.fourth dl:nth-of-type(1) dd
+{
+    margin-right: 100px;
+}
+.fourth dl:nth-of-type(2) img
+{
+    float:right;
+    margin-right: 200px;
+}
+.fourth dl:nth-of-type(1) dd:nth-of-type(1),.fourth dl:nth-of-type(2) dd:nth-of-type(1)
+{
+    line-height: 50px;
+    padding-top: 120px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.fourth dl:nth-of-type(1) dd:nth-of-type(2),.fourth dl:nth-of-type(2) dd:nth-of-type(2){
+    color: #cccccc;
+    line-height: 30px;
+}
+.fourth dl:nth-of-type(2) dd
+{
+    margin-left: 100px;
+    width: 40%;
+}
+.fifth
+{
+    width: 100%;
+    margin: 30px auto;
+}
+.fifth h3
+{
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 26px;
+}
+.fifth p
+{
+    text-align: center;
+    width: 50%;
+    height: 50px;
+    margin: 10px auto;
+    color: #cccccc;
+}
+.fifth ul
+{
+    margin-left: 200px;
+}
+
+.fifth ul li{
+    width: 45%;
+    height: 350px;
+    float: left;
+    margin: 10px 20px;
+}
+.sixth{
+    width: 100%;
+    height: 300px;
+    margin: 20px auto;
+}
+.sixth .form1
+{
+    width: 30%;
+    height: 230px;
+    border: 1px solid #cccccc;
+    margin: 10px 20px;
+    padding-left: 80px;
+    float: left;
+}
+.sixth .form1 input
+{
+    margin: 10px 10px;
+}
+.sixth .form1 input[type="submit"],.sixth .form1 input
+{
+    width: 200px;
+    height: 30px;
+}
+.sixth .form1 input[type="submit"]
+{
+    border: none;
+    background-color: #000011;
+    color: #ffffff;
+}
+.sixth .form1 textarea
+{
+    width: 200px;
+    height: 60px;
+    margin-left: 10px;
+}
+aside{
+    width: 50%;
+    height: 230px;
+    margin: 0 30px;
+    text-align: center;
+    float: left;
+}
+aside h3{
+    height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+aside p{
+    width: 60%;
+    text-align:justify;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    color: #cccccc;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    margin: 0px 5%;
+    color: #ffffff;
+    background-color: #000;
+    margin-left: -0px;
+    margin-top: -20px;
+}
+footer ul
+{
+    width: 20%;
+    float: left;
+}
+footer ul li
+{
+    line-height: 30px;
+}
+footer ul li a
+{
+    color: gray;
+}
+footer ul:first-child
+{
+    padding-left: 100px;
+}
